@@ -1,0 +1,6 @@
+// Adds new attribute to document in collection school
+db.school.update(
+	{name: "Holberon school"},
+	{$set: {address: "972 Mission street"}}
+	{multi: true}
+) 
